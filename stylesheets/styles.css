@@ -1,0 +1,311 @@
+/* @override 
+	http://mordiscofest.com/stylesheets/styles.css
+	http://dl.dropbox.com/u/3256489/mordisco-festival/stylesheets/styles.css
+	http://www.mordiscofest.com/stylesheets/styles.css
+*/
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/* reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+ol, ul{margin-left:15px;}
+ol, ul{margin-bottom:15px;}
+
+li{ list-style: none; }
+body {line-height:1.5;}
+table {border-collapse:collapse;border-spacing:0;}
+caption, th, td {font-weight:normal;
+}
+table, td, th {vertical-align: top;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+.clear{ clear: both; }
+body{
+	background-color: #F5F5F5;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+#container{
+	display: block;
+	width: 960px;
+	margin: 35px auto 0;
+	position: relative;
+}
+.header{
+	display: block;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #FF6762;
+	padding-bottom: 5px;
+	margin-bottom: 40px;
+}
+#container h1{
+	display: block;
+	width: 460px;
+	margin: 0 auto;
+	height: 162px;
+	background: url(../images/mordisco-festival.png) no-repeat 0 0;
+	text-indent: -9999px;
+}
+
+.col-1{
+	display: block;
+	width: 460px;
+	margin-right: 60px;
+	float: left;
+}
+.col-2{
+	display: block;
+	width: 440px;
+	float: left;
+	margin-right: 0;
+}
+ul.bandas li {
+display: block;
+margin-bottom: 11px;
+}
+ul.bandas li a{
+	text-decoration: none;
+	color: black;
+}
+ul.bandas li a:hover{
+	color: #ff665f;
+}
+
+
+ul.bandas li b{
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	display: block;
+	text-align: right;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+ul.bandas li small{
+	letter-spacing: 1px;
+	display: block;
+	text-align: right;
+	color: #FF665F;
+	font: italic 14px/14px 'Oswald', sans-serif;
+}
+ul.bandas li.n1 {
+	font-size: 80px;
+	line-height: 80px;
+}
+ul.bandas li.n2 {
+	font-size: 50px;
+	line-height: 50px;
+}
+ul.bandas li.n3 {
+	font-size: 40px;
+	line-height: 40px;
+}
+
+
+
+
+
+h2.fecha{
+	text-transform: uppercase;
+	font: italic 44px/46px 'Oswald', sans-serif;
+	color: #414141;
+	letter-spacing: -1px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+h3.lugar{
+	text-transform: uppercase;
+	font: italic 28px/25px 'Oswald', sans-serif;
+	color: #5a5a5a;
+	letter-spacing: 0;
+	margin-bottom: 20px;
+	display: block;
+	border-bottom: 1px solid silver;
+	padding-bottom: 20px;
+}
+p.info{
+	display: block;
+	float: left;
+	border-bottom: 1px solid silver;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+		font: normal normal 18px 'Oswald';
+	color: gray;
+}
+p.info strong{
+	color: black;
+}
+
+p.info a{
+	color: white;
+	background-color: #ff665f;
+	text-decoration: none;
+	padding: 2px 8px 2px 7px;
+}
+p.info a:hover{
+	background-color: black;
+	color: #ff665f;
+}
+
+
+
+.comprar-entradas a{
+	float: left;
+	display: block;
+	width: 250px;
+	height: 60px;
+	background-color: #FF665F;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font: normal normal 20px/60px 'Oswald';
+	margin-bottom: 30px;
+}
+.comprar-entradas a:hover{
+	background-color: #000;
+	color: #ff665f;
+}
+
+.jagermeister{
+	display: block;
+	width: 100px;
+	height: 112px;
+	background: url(../images/jagermeister.png) no-repeat left top;
+	position: absolute;
+	top: 49px;
+	left: 0;
+}
+
+.box-facebook{
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+	margin-left: -10px;
+}
+.twitter{
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 18px;
+}
+
+.contacto{
+	color: gray;
+		font: 13px/16px 'Oswald';
+	text-transform: uppercase;
+}
+
+.lightbox-banda {
+	font-size: 14px;
+	line-height: 18px;
+}
+.lightbox-banda .lb-col-1{
+display: block;
+float: left;
+width: 520px;
+	overflow: hidden;
+	margin-right: 20px;
+	padding-left: 5px;
+	height: 590px;
+}
+.lightbox-banda .lb-col-2{
+display: block;
+float: left;
+width: 350px;
+	overflow-y: scroll;
+	height: 576px;
+	margin-top: 14px;
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+.lightbox-banda .lb-col-1 .image img{
+	width: 520px;
+}
+
+
+
+.lightbox-banda h1{
+	font: bold 50px 'Oswald';
+	text-transform: uppercase;
+	margin-bottom: 3px;
+	text-align: right;
+}
+.lightbox-banda p{
+	margin-bottom: 12px;
+}
+
+
+
+
+.lightbox-horarios h2{
+	font: bold 50px 'Oswald';
+	text-transform: uppercase;
+	margin-bottom: 3px;
+	text-align: right;
+}
+
+
+.lightbox-horarios table th{
+	text-align: left;
+	color: #ff665f;
+	font: bold 25px/40px 'Oswald';
+	height: 40px;
+	width: 70px;
+}
+.lightbox-horarios table td{
+	text-align: left;
+	height: 40px;
+	font: bold 25px/40px 'Oswald';
+}
+
+
+
+
+
+
+.footer{
+	display: block;
+	width: 100%;
+	float: left;
+	border-top: 1px solid #FF665F;
+	padding-top: 20px;
+	margin-top: 30px;
+}
+
+.footer .colaboran{
+	display: block;
+	height: 42px;
+	background: url(../images/colaboran.png) no-repeat center center;
+	text-indent: -9999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
